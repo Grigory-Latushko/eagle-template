@@ -1,6 +1,5 @@
 section {
-    background-image: url('/img/eagle-bg.png');
-    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url("../img/bg-eagle.png");
     /*height: 100vh;*/
     padding-bottom: 230px;
 }
