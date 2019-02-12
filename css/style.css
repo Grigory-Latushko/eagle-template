@@ -127,11 +127,6 @@ h1 {
     margin: 0 15px;
 }
 
-.numbers {
-    background-color: #95e1d3;
-    height: 270px;
-}
-
 .Layer_44_icon {
     position: absolute;
     transform: translate(50%, -50%);
@@ -149,4 +144,32 @@ h1 {
     transform: translate(50%, -50%);
     top: 60%;
     right: 50%
+}
+
+.greenbox {
+    background-color: #95e1d3;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 360px;
+}
+
+.greenbox-numbers {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.greenbox-text {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+
 }
