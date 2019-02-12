@@ -1,8 +1,11 @@
 section {
     background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url("../img/bg-eagle.png");
+    /*background-position: 0px 0px;*/
+    /*background-repeat: no-repeat;*/
     /*height: 100vh;*/
     padding-bottom: 230px;
 }
+
 .title {
     color: #ffffff;
     font-family: "Kaushan Script";
@@ -12,10 +15,12 @@ section {
     justify-content: center;
     padding: 164px 0 0 42px;
 }
+
 .links {
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
+
 .links a {
     color: #fff;
     font-family: Montserrat;
@@ -23,13 +28,16 @@ section {
     font-weight: 400;
     text-transform: uppercase;
 }
+
 nav {
-    display:flex;
+    display: flex;
     justify-content: space-between;
 }
+
 header {
     padding: 40px 0 40px 0;
 }
+
 h1 {
     color: #ffffff;
     font-family: Montserrat;
@@ -41,6 +49,7 @@ h1 {
     /*width: 850px;*/
     padding: 42px 0 71px 0;
 }
+
 .button {
     border: 3px solid #ffffff;
     padding: 15px 33px;
@@ -52,4 +61,92 @@ h1 {
     text-transform: uppercase;
     display: flex;
     margin: auto;
+}
+
+.wwdo {
+    color: #333333;
+    font-family: "Kaushan Script";
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.storyabout {
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 23px;
+}
+
+.redline {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.textabout {
+    color: #999999;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 955px;
+    padding-top: 47px;
+    padding-bottom: 43px;
+    margin: auto;
+}
+
+.threeimg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 110px;
+}
+
+.layer_44_bg {
+    margin: 0 15px;
+    background-color: #95e1d3;
+    position: relative;
+}
+
+.layer_44 {
+    height: 250px;
+    width: 380px;
+    position: inherit;
+    text-align: center;
+    top: -10px;
+    right: 10px;
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%), url("../img/Layer_44.png");
+
+}
+
+.layer_39-41 {
+    margin: 0 15px;
+}
+
+.numbers {
+    background-color: #95e1d3;
+    height: 270px;
+}
+
+.Layer_44_icon {
+    position: absolute;
+    transform: translate(50%, -50%);
+    top: 45%;
+    right: 50%
+}
+
+.layer_44_text {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    transform: translate(50%, -50%);
+    top: 60%;
+    right: 50%
 }
